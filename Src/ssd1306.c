@@ -1,6 +1,6 @@
 #include "ssd1306.h"
 
-#define SSD1306_USE_I2C 0x00
+#define SSD1306_USE_I2C
 #if defined(SSD1306_USE_I2C)
 
 void ssd1306_Reset(void) {
